@@ -42,6 +42,49 @@
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 
+		
+		<!-- Banner Ads Header -->
+		<!-- Banner de 1200 x 60 PX -->
+		<section class="container">
+			<a href="#"><img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/ads_header.png" alt="ads header"></a>
+		</section>
+
+		
+		<!-- Header -->
+
+		<header>
+			<div class="top__header">
+				<div class="container">
+					<!-- Menu top -->
+					<ul class="menu__top__header">
+						<li><a href="#">Acerca de SALUD HOY</a></li>
+						<li><a href="#">Newsletter SALUD HOY</a></li>
+						<li><a href="#">Contáctenos</a></li>
+					</ul>
+
+					<!-- Menu login y registro -->
+					<ul class="menu__top__login">
+						<li><a href="#">Login</a></li>
+						<li><a class="boton__suscribase__header" href="#">Suscríbase ></a></li>
+					</ul>
+
+					<!-- Menu social -->
+					<ul class="menu__social__header">
+						<li><a target="new" href="#"><img width="20px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/twitter.png" alt="Twitter"></a></li>
+						<li><a target="new" href="#"><img width="20px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/facebook.png" alt="Facebook"></a></li>
+						<li><a target="new" href="#"><img width="20px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/linkedin.png" alt="Linkedin"></a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+	
+		
+
+
+
+
+
+
 		<div id="container">
 
 			<header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">

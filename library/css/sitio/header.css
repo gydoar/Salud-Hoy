@@ -1,0 +1,42 @@
+.top__header{
+	text-align: right;
+	background-color: #043B5A;
+	padding: 5px 0px;
+}
+
+.top__header ul, .top__header ul li{
+	margin-bottom: 0px;
+	display: inline-block;
+	color: #ffffff;
+}
+.top__header ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 400;
+	
+}
+.menu__top__header li a, .menu__top__login li a{
+	padding: 0px 10px;
+}
+.menu__top__header li:after{
+	content: "|";
+	font-weight: 400;
+	font-size: 12px;
+}
+.menu__social__header img{
+	vertical-align: bottom;
+}
+a.boton__suscribase__header{
+	color: #9A172F !important;
+	background-color: #ffffff;
+	font-weight: 700 !important;
+	padding: 3px 4px !important;	
+}
+
+.menu__social__header{
+	margin-left: 10px;
+}
+.menu__social__header li a{
+	padding: 0px 3px;
+}
