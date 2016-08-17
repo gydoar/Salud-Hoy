@@ -135,6 +135,46 @@
 					</div>
 				</div>
 			</div>
+
+
+			<!-- Medicina Alternativa -->
+
+			<div class="twelve columns medicina__alternativa">
+				<div class="twelve columns">
+					<h3><a href="#">MEDICINA ALTERNATIVA</a></h3> <div class="line__medicina__alternativa"></div>
+				</div>
+				
+				<div class="row medicina__alternativa_cajas">
+
+					<div>
+						<h2>Jabón ordinario tan eficaz como jabón antibacteriano con triclosán para…</h2>
+						<p>Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas...</p>
+
+						<a class="boton_vermas boton2" href="#">Leer más ></a>
+					</div>
+
+					<div class="line2__medicina__alternativa"><hr></div>
+
+					<div>
+						<h2>Jabón ordinario tan eficaz como jabón antibacteriano con triclosán para…</h2>
+						<p>Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas...</p>
+
+						<a class="boton_vermas boton2" href="#">Leer más ></a>
+					</div>
+
+					<div class="line2__medicina__alternativa"><hr></div>
+
+					<div>
+						<h2>Jabón ordinario tan eficaz como jabón antibacteriano con triclosán para…</h2>
+						<p>Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas...</p>
+
+						<a class="boton_vermas boton2" href="#">Leer más ></a>
+					</div>
+
+					<div class="line2__medicina__alternativa"><hr></div>
+
+				</div>
+			</div>
 	</div>
 		
 
@@ -197,12 +237,61 @@
 		<div class="twelve colums especiales__salud__hoy">
 			<div class="row columns">
 				<h3><a href="#">Especiales SALUD HOY</a></h3>
+
+				<!-- Place somewhere in the <body> of your page -->
+				<div class="flexslider">
+				  <ul class="slides">
+				    <li>
+				      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
+					  
+					  <a class="boton_vermas boton_2" href="#">Ver más ></a>
+				    </li>
+				    <li>
+				      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
+					  
+					  <a class="boton_vermas boton_2" href="#">Ver más ></a>
+				    </li>
+				    <li>
+				      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
+					  
+					  <a class="boton_vermas boton_2" href="#">Ver más ></a>
+				    </li>
+				  </ul>
+				</div>
 			</div>
 
+		</div>
+
+		<!-- El ABC de.. -->
+
+		<div class="twelve columns el__abc__de">
+			<div class="row columns">
+				<h3><a href="#">El ABC de ...</a></h3>
+
+				<div class="row">
+					<div class="six columns">
+						<img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/el_abc.png" alt="">
+					</div>
+					
+					<div class="six columns">
+
+						<h2>La diabetes</h2>
+						<p>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
+
+						<a class="boton_vermas boton_2" href="#">Ver más ></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Salud de la A a la Z -->
+		<div>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates vero voluptatem quas quasi, blanditiis id! Voluptates sapiente at, vero ab earum laudantium voluptatum iusto, amet omnis obcaecati alias enim eos.
 		</div>
 	</div>
 </div>
 
 
+<script>
 
 <?php get_footer(); ?>

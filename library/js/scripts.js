@@ -117,4 +117,15 @@ jQuery(document).ready(function($) {
   loadGravatars();
 
 
+  // Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    prevText: "",
+    nextText: "",
+  });
+});
+
+
 }); /* end of as page load scripts */

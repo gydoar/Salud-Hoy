@@ -1,12 +1,12 @@
-.de__actualidad h3, .lo__destacado h3{
+.de__actualidad h3, .lo__destacado h3, .medicina__alternativa h3{
 	max-width: 30%;
 	background-color: #ffffff;
 }
-.de__actualidad h3 a, .lo__destacado h3 a{
+.de__actualidad h3 a, .lo__destacado h3 a, .medicina__alternativa h3 a{
 	text-decoration: none;
 	color: #043B5A;
 }
-.line__actualidad__home, .line__destacado__home, .line__centros_profesionales{
+.line__actualidad__home, .line__destacado__home, .line__centros_profesionales, .line__medicina__alternativa{
 	margin: 0px;
 	top: -31px;
 	position: relative;
@@ -14,7 +14,7 @@
 	text-align: right;
 	z-index: -1;
 }
-.de__actualidad__cajas, .centros_profesionales_cajas{
+.de__actualidad__cajas, .centros_profesionales_cajas, .medicina__alternativa_cajas{
 	padding-left: 20px;
 }
 .de__actualidad__cajas img{
@@ -81,13 +81,13 @@
 .para_el_paciente{
 	margin-bottom: 20px;
 }
-.para_el_paciente h3, .especiales__salud__hoy h3{
+.para_el_paciente h3, .especiales__salud__hoy h3, .el__abc__de h3{
 	max-width: 100%;
 	background-color: #043B5A;
 	text-align: center;
 	padding: 10px 0px;
 }
-.para_el_paciente h3 a, .especiales__salud__hoy h3 a{
+.para_el_paciente h3 a, .especiales__salud__hoy h3 a, .el__abc__de h3 a{
 	color: #ffffff;
 	font-weight: 400;
 }
@@ -123,4 +123,68 @@
 
 .especiales__salud__hoy h3{
 	background-color: #82A629;
+	margin-bottom: 0px;
+}
+.flexslider{
+	background: #F1F1F2;
+	border: none;
+	padding: 20px 50px 5px 50px;
+	margin-bottom: 10px;
+}
+.flexslider{
+	font-size: 12px;
+	line-height: 16px;
+}
+.flexslider p{
+	margin-bottom: 10px;
+}
+.flexslider ul li{
+	border-bottom: none;
+}
+.el__abc__de{
+	background: #F1F1F2;
+}
+.el__abc__de h2{
+	text-align: center;
+	font-size: 22px;
+	color: #043B5A;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.el__abc__de p{
+	font-weight: 300;
+	margin-right: 5px;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+.el__abc__de a.boton_vermas{
+	margin-right: 4px;
+}
+.medicina__alternativa{
+	margin-top: 20px;
+}
+.medicina__alternativa h3{
+	max-width: 35%;
+}
+.medicina__alternativa h2{
+	font-size: 14px;
+	font-weight: 500;
+	color: #4E5B6E;
+	letter-spacing: .3px;
+	margin-bottom: 5px;
+}
+.medicina__alternativa p{
+	font-weight: 300;
+	line-height: 16px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+.line__medicina__alternativa{
+	border-top: 1.5px solid #043B5A;
+}
+.line2__medicina__alternativa hr{
+	margin-top: 50px;
+	margin-bottom: 10px;
 }
