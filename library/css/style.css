@@ -4,13 +4,13 @@
 @import url('librerias/skeleton.css');
 
 
-
 /* Sitio */
 /* Agregue los estilos para cada seccion de la página */
 @import url('sitio/header.css');
 @import url('sitio/footer.css');
+@import url('sitio/home.css');
 @import url('sitio/media-query.css');
 
 
 
-@import url('sitio/simplificado.css');
+@import url('sitio/simplificados.css');

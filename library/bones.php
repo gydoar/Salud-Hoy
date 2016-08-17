@@ -138,6 +138,7 @@ function bones_scripts_and_styles() {
 		  wp_enqueue_script( 'comment-reply' );
     }
 
+
 		//adding scripts file in the footer
 		wp_register_script( 'bones-js', get_stylesheet_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), '', true );
 

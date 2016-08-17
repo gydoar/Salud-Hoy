@@ -1,0 +1,126 @@
+.de__actualidad h3, .lo__destacado h3{
+	max-width: 30%;
+	background-color: #ffffff;
+}
+.de__actualidad h3 a, .lo__destacado h3 a{
+	text-decoration: none;
+	color: #043B5A;
+}
+.line__actualidad__home, .line__destacado__home, .line__centros_profesionales{
+	margin: 0px;
+	top: -31px;
+	position: relative;
+	border-top: 1.5px solid #043B5A;
+	text-align: right;
+	z-index: -1;
+}
+.de__actualidad__cajas, .centros_profesionales_cajas{
+	padding-left: 20px;
+}
+.de__actualidad__cajas img{
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.de__actualidad__cajas h2, .centros_profesionales_cajas h2{
+	font-size: 14px;
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-bottom: 10px;
+}
+
+.lo__destacado h3{
+	max-width: 30%;
+}
+.lo__destacado h3 a, .centros__profesionales h3 a{
+	color: #82A629;
+}
+
+.line__destacado__home{
+	border-top: 1.5px solid #82A629;
+}
+
+.lo__destacado ul li{
+	list-style: none;
+	border-bottom: .5px solid #BDBDBD;
+	padding: 2px 0px;
+}
+.lo__destacado ul li a{
+	text-decoration: none;
+	color: #3F3F3F;
+	font-size: 14px;
+}
+.lo__destacado ul li a:hover{
+	color: #A4A4A4;
+}
+.centros__profesionales{
+	margin-top: 20px;
+}
+
+.centros__profesionales h3{
+	max-width: 40% !important;
+}
+.line__centros_profesionales{
+	border-top: 1.5px solid #82A629;
+}
+.centros_profesionales_cajas h4{
+	background: #C9D3D1;
+	max-width: 100%;
+	text-align: center;
+	color: #043B5A;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 10px 0px;
+	letter-spacing: .1px;
+	margin-bottom: 10px;
+}
+.centros_profesionales_cajas h2{
+	margin-bottom: 20px;
+}
+
+
+.para_el_paciente{
+	margin-bottom: 20px;
+}
+.para_el_paciente h3, .especiales__salud__hoy h3{
+	max-width: 100%;
+	background-color: #043B5A;
+	text-align: center;
+	padding: 10px 0px;
+}
+.para_el_paciente h3 a, .especiales__salud__hoy h3 a{
+	color: #ffffff;
+	font-weight: 400;
+}
+.para_el_paciente h2{
+	line-height: 16px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #4E5B6E;
+	letter-spacing: .2px;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.para_el_paciente p{
+	font-weight: 300;
+	line-height: 16px;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.para__el__paciente__cajas{
+	padding: 0px 10px;
+}
+
+.line__sidebar__paciente, .line__buscando__bienestar{
+	border-bottom: 1px dashed #939495;
+	margin: 20px 0px;
+}
+.line__buscando__bienestar{
+	margin: 20px 0px;
+}
+.buscando_bienestar{
+	padding-top: 20px !important;
+}
+
+.especiales__salud__hoy h3{
+	background-color: #82A629;
+}

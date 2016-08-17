@@ -1,3 +1,6 @@
+.ads__header img{
+	margin: 10px 0px;
+}
 .top__header{
 	text-align: right;
 	background-color: #043B5A;
@@ -17,7 +20,10 @@
 	
 }
 .menu__top__header li a, .menu__top__login li a{
-	padding: 0px 10px;
+	padding: 0px 6px;
+}
+.menu__top__header li a:hover{
+	text-decoration: underline;
 }
 .menu__top__header li:after{
 	content: "|";
@@ -33,10 +39,61 @@ a.boton__suscribase__header{
 	font-weight: 700 !important;
 	padding: 3px 4px !important;	
 }
+a.boton__suscribase__header:hover{
+	color: #ffffff !important;
+	background-color: #9A172F;
 
+	-webkit-transition-duration: 500ms;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
 .menu__social__header{
 	margin-left: 10px;
 }
 .menu__social__header li a{
+	padding: 0px 3px;
+}
+
+
+
+
+.header__principal{
+	background-color: #0B90D0;
+	padding: 10px 0px;
+}
+.menu__header{
+	text-align: center;
+	margin-top: 26px;
+	border-right: 1px solid #ffffff;
+	border-height: 300px;
+}
+.buscar__header{
+	margin-top: 20px;
+
+}
+.buscar__header input[type="text"]{
+	width: 100%;
+	max-width: 100%;
+	background: url("../../images/header/icon_lupa.png") no-repeat scroll 0 0 #ffffff;
+    border: 1px solid #BFBFBF;
+	padding: 5px 5px 5px 15px;
+    background-position: 186px 5px
+}
+ul.menu__header, .menu__header li{
+	margin-bottom: 0px;
+}
+.menu__header li{
+	display: inline-block;
+}
+.menu__header li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 0px 5px;
+}
+.menu__header li a:hover{
+	border: 2px solid #ffffff;
 	padding: 0px 3px;
 }
