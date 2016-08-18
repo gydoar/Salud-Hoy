@@ -9,8 +9,33 @@
 
 
 <!-- Slider caption -->
-<div>
-	
+<div class="container">
+	<!-- Place somewhere in the <body> of your page -->
+	<div class="flexslider-caption">
+	  <ul class="slides">
+	    <li>
+	      <img src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/slider.png" />
+	      <div class="flex-caption">
+			<h3><a href="#">EXCLUSIVO</a></h3>
+			<h2>FDA alerta sobre arritmias con azitromicina</h2>
+	      	<p>El consumo de carnes rojas, sobre todo procesadas, se ha asociado de manera consistente a aumento en el riesgo de dia...</p>
+
+	      	<a class="ver__mas__slider" href="#">Ver más ></a>
+	      </div>
+	    </li>
+
+	    <li>
+	      <img src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/slider.png" />
+	      <div class="flex-caption">
+			<h3><a href="#">EXCLUSIVO</a></h3>
+			<h2>FDA alerta sobre arritmias con azitromicina</h2>
+	      	<p>El consumo de carnes rojas, sobre todo procesadas, se ha asociado de manera consistente a aumento en el riesgo de dia...</p>
+
+	      	<a class="ver__mas__slider" href="#">Ver más ></a>
+	      </div>
+	    </li>
+	  </ul>
+	</div>
 </div>
 
 <!-- Section 2 De actualidad -->

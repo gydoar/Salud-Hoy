@@ -30,3 +30,10 @@ a.boton2:hover{
 .espacio__actualidad__cajas{
 	margin-bottom: 20px;
 }
+a.ver__mas__slider{
+	float: right;
+	background-color: #93C01F;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px 10px;
+}

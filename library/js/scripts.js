@@ -128,4 +128,13 @@ $(window).load(function() {
 });
 
 
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider-caption').flexslider({
+    animation: "slide",
+    controlNav: false,              
+    directionNav: true,  
+  });
+});
+
 }); /* end of as page load scripts */
