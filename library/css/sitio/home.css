@@ -1,8 +1,8 @@
-.de__actualidad h3, .lo__destacado h3, .medicina__alternativa h3{
+.de__actualidad h3, .lo__destacado h3, .medicina__alternativa h3, .nuestros__portales h3 {
 	max-width: 30%;
 	background-color: #ffffff;
 }
-.de__actualidad h3 a, .lo__destacado h3 a, .medicina__alternativa h3 a{
+.de__actualidad h3 a, .lo__destacado h3 a, .medicina__alternativa h3 a, .nuestros__portales h3 a{
 	text-decoration: none;
 	color: #043B5A;
 }
@@ -14,7 +14,7 @@
 	text-align: right;
 	z-index: -1;
 }
-.de__actualidad__cajas, .centros_profesionales_cajas, .medicina__alternativa_cajas{
+.de__actualidad__cajas, .centros_profesionales_cajas, .medicina__alternativa_cajas, .nuestros__portales__cajas{
 	padding-left: 20px;
 }
 .de__actualidad__cajas img{
@@ -110,7 +110,7 @@
 	padding: 0px 10px;
 }
 
-.line__sidebar__paciente, .line__buscando__bienestar{
+.line__sidebar__paciente, .line__buscando__bienestar, .line__nuestros__portales{
 	border-bottom: 1px dashed #939495;
 	margin: 20px 0px;
 }
@@ -187,4 +187,71 @@
 .line2__medicina__alternativa hr{
 	margin-top: 50px;
 	margin-bottom: 10px;
+}
+.nuestros__portales{
+	margin-top: 20px;
+}
+.nuestros__portales h3{
+	max-width: 26%;
+}
+.nuestros__portales h3 a{
+	font-size: 14px;
+}
+.nuestros__portales__cajas h4{
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #C9D3D1;
+	width: 40%;
+	text-align: center;
+	padding: 10px 0px;
+	color: #043B5A;
+	margin-bottom: 10px;
+}
+.nuestros__portales__cajas h2{
+	font-size: 16px;
+	color: #4E5B6E;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.nuestros__portales__cajas p{
+	line-height: 16px;
+	font-size: 12px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+.line__nuestros__portales{
+	margin-left: 20px;
+}
+.ads__sidebar__2{
+	margin-top: 10px;
+}
+.newsletter{
+	margin-top: 10px;
+	background: #F1EFEF;
+}
+.newsletter h4{
+	background-color: #82A629;
+	padding: 5px 0px;
+	margin-bottom: 10px;
+}
+.newsletter h4 a{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	letter-spacing: .1px;
+}
+.newsletter p{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.newsletter p span{
+	color: #4E5B6E;
+}
+.newsletter__caja{
+	padding: 0px 10px;
+}
+.newsletter__caja input[type="text"]{
+	width: 100%;
+	max-width: 100%;
 }

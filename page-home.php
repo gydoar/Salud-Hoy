@@ -171,8 +171,6 @@
 						<a class="boton_vermas boton2" href="#">Leer más ></a>
 					</div>
 
-					<div class="line2__medicina__alternativa"><hr></div>
-
 				</div>
 			</div>
 	</div>
@@ -292,6 +290,49 @@
 </div>
 
 
-<script>
+<!-- Nuestros portales -->
+<div class="container nuestros__portales">
+	<div class="eight columns">
+		<div class="twelve columns">
+			<h3><a href="#">MEDICINA ALTERNATIVA</a></h3> <div class="line__medicina__alternativa"></div>
+		</div>
+
+		<div class="twelve columns nuestros__portales__cajas">
+			<h4>Hoy en Cursos ILADIBA</h4>
+			<h2>Actualización en cirugía de la obesidad (cirugía bariátrica)</h2>
+			<p>En líneas generales puede decirse que la cirugía de la obesidad y procedimientos invasivos. El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes emitió una actualización de su guía de tamización para diabetes...</p>
+			<a class="boton_vermas boton2" href="#">Leer más ></a>
+
+			<div class="twelve columns line__nuestros__portales"></div>
+		</div>
+
+		
+
+		<div class="twelve columns nuestros__portales__cajas">
+			<h4>Hoy en ILADIBA</h4>
+			<h2>Actualización en cirugía de la obesidad (cirugía bariátrica)</h2>
+			<p>En líneas generales puede decirse que la cirugía de la obesidad y procedimientos invasivos. El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes emitió una actualización de su guía de tamización para diabetes...</p>
+			<a class="boton_vermas boton2" href="#">Leer más ></a>
+		</div>
+	</div>
+
+	<!-- Sidebar 2 -->
+	<div class="four columns sidebar__2 center">
+		<div class="ads__sidebar__2">
+			<a href="#"><img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/banner_300x250.png" alt=""></a>
+		</div>
+
+		<!-- Newsletter -->
+		<div class="newsletter twelve columns">
+			<h4><a href="#">Regístrese al Newsletter ILADIBA</a></h4>
+				<div class="newsletter__caja center">
+					<p><span>Para enterarse de las noticias más relevantes de Salud</span></p>
+					<input type="text" placeholder="Correo electrónico"><br>
+					<a class="boton_vermas boton_2" href="#">Regístrese ></a>
+				</div>
+		</div>
+	</div>
+</div>
+
 
 <?php get_footer(); ?>
