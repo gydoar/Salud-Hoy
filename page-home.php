@@ -335,4 +335,25 @@
 </div>
 
 
+<!-- Editor jefe -->
+
+<div class="container editor__jefe">
+	<div class="ten columns offset-by-two">
+		<div class="twelve columns">
+			<h3><a href="#">EDITOR JEFE PUBLICACIONES ILADIBA</a></h3> <div class="line__medicina__alternativa"></div>
+		</div>
+		<div class="twelve columns">
+			<div class="two columns">
+				<img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/dr_maldonado.png" alt="">
+			</div>
+
+			<div class="ten columns">
+				<h5>Jorge E. Maldonado MD, PhD, FACP</h5>
+				<p>Vicepresidente de Educación de la Federación Médica Colombiana; Miembro de Número de la Academia Nacional de Medicina; Profesor Titular de Medicina Mayo Clinic College of Medicine (1976); Profesor Visitante Universidad de Paris VII (1975); Profesor Visitante de la Universidad de Harvard (1985-1987); Internista-Hematólogo-Oncólogo Médico Certificado; Miembro de Sociedades de Oncología como American Society of Hematology, American Society of Clinical Oncology y American Association for Cancer Research.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <?php get_footer(); ?>

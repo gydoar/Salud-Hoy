@@ -1,8 +1,8 @@
-.de__actualidad h3, .lo__destacado h3, .medicina__alternativa h3, .nuestros__portales h3 {
+.de__actualidad h3, .lo__destacado h3, .medicina__alternativa h3, .nuestros__portales h3, .editor__jefe h3{
 	max-width: 30%;
 	background-color: #ffffff;
 }
-.de__actualidad h3 a, .lo__destacado h3 a, .medicina__alternativa h3 a, .nuestros__portales h3 a{
+.de__actualidad h3 a, .lo__destacado h3 a, .medicina__alternativa h3 a, .nuestros__portales h3 a, .editor__jefe h3 a{
 	text-decoration: none;
 	color: #043B5A;
 }
@@ -254,4 +254,19 @@
 .newsletter__caja input[type="text"]{
 	width: 100%;
 	max-width: 100%;
+}
+.editor__jefe{
+	margin-top: 20px;
+}
+.editor__jefe h3{
+	max-width: 38%;
+}
+.editor__jefe h5{
+	color: #000000;
+	font-weight: 500;
+	margin-bottom: 10px;	
+}
+.editor__jefe p{
+	font-size: 12px;
+	text-align: justify;
 }
