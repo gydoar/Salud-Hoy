@@ -356,4 +356,9 @@
 </div>
 
 
+<!-- Ads Footer 728 x 90 -->
+<div class="container center ads__footer">
+	<img width="728px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/banner_728x90.png" alt="">
+</div>
+
 <?php get_footer(); ?>

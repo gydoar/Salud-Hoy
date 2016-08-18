@@ -270,3 +270,7 @@
 	font-size: 12px;
 	text-align: justify;
 }
+.ads__footer img{
+	max-width: 100%;
+	padding: 20px 0px;
+}
