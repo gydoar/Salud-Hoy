@@ -1,7 +1,10 @@
 .center{
 	text-align: center;
 }
-
+.bg-gray{
+	background-color: #F2F0F0;
+	padding: 1px 0px 10px 0px;
+}
 a.boton_vermas{
 	max-width: 28%;
 	border: 1px solid #000000;
