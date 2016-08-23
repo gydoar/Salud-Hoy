@@ -358,7 +358,7 @@
 <div class="container nuestros__portales">
 	<div class="eight columns">
 		<div class="twelve columns">
-			<h3><a href="#">MEDICINA ALTERNATIVA</a></h3> <div class="line__medicina__alternativa"></div>
+			<h3><a href="#">NUESTROS PORTALES</a></h3> <div class="line__medicina__alternativa"></div>
 		</div>
 
 		<div class="twelve columns nuestros__portales__cajas">

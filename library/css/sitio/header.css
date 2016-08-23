@@ -15,14 +15,14 @@
 .top__header ul li a{
 	color: #ffffff;
 	text-decoration: none;
-	font-size: 12px;
-	font-weight: 400;
+	font-size: 11px;
+	font-weight: 500;
 	
 }
 .menu__top__header li a, .menu__top__login li a{
 	padding: 0px 6px;
 }
-.menu__top__header li a:hover{
+.menu__top__header li a:hover,  .top__header ul li:first-child:hover{
 	text-decoration: underline;
 }
 .menu__top__header li:after{
@@ -54,8 +54,6 @@ a.boton__suscribase__header:hover{
 .menu__social__header li a{
 	padding: 0px 3px;
 }
-
-
 
 
 .header__principal{
@@ -96,4 +94,7 @@ ul.menu__header, .menu__header li{
 .menu__header li a:hover{
 	border: 2px solid #ffffff;
 	padding: 0px 3px;
+}
+.ads__header_phone{
+	display: none;
 }

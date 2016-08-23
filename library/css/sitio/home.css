@@ -1,10 +1,12 @@
-.de__actualidad h3, .lo__destacado h3, .medicina__alternativa h3, .nuestros__portales h3, .editor__jefe h3{
+.de__actualidad h3, .lo__destacado h3, .medicina__alternativa h3, .nuestros__portales h3, .editor__jefe h3, .buscando_bienestar h3{
 	max-width: 30%;
 	background-color: #ffffff;
 }
 .de__actualidad h3 a, .lo__destacado h3 a, .medicina__alternativa h3 a, .nuestros__portales h3 a, .editor__jefe h3 a{
 	text-decoration: none;
 	color: #043B5A;
+	font-size: 18px;
+	font-weight: 700;
 }
 .line__actualidad__home, .line__destacado__home, .line__centros_profesionales, .line__medicina__alternativa{
 	margin: 0px;
@@ -29,7 +31,7 @@
 }
 
 .lo__destacado h3{
-	max-width: 30%;
+	max-width: 40%;
 }
 .lo__destacado h3 a, .centros__profesionales h3 a{
 	color: #82A629;
@@ -57,7 +59,7 @@
 }
 
 .centros__profesionales h3{
-	max-width: 40% !important;
+	max-width: 45% !important;
 }
 .line__centros_profesionales{
 	border-top: 1.5px solid #82A629;
@@ -68,7 +70,7 @@
 	text-align: center;
 	color: #043B5A;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 19px;
 	padding: 10px 0px;
 	letter-spacing: .1px;
 	margin-bottom: 10px;
@@ -120,7 +122,6 @@
 .buscando_bienestar{
 	padding-top: 20px !important;
 }
-
 .especiales__salud__hoy h3{
 	background-color: #82A629;
 	margin-bottom: 0px;
@@ -166,7 +167,7 @@
 	margin-top: 20px;
 }
 .medicina__alternativa h3{
-	max-width: 35%;
+	max-width: 40%;
 }
 .medicina__alternativa h2{
 	font-size: 14px;
@@ -195,10 +196,10 @@
 	max-width: 26%;
 }
 .nuestros__portales h3 a{
-	font-size: 14px;
+	font-size: 16.27px;
 }
 .nuestros__portales__cajas h4{
-	font-size: 16px;
+	font-size: 19px;
 	font-weight: 700;
 	background-color: #C9D3D1;
 	width: 40%;
@@ -254,6 +255,7 @@
 .newsletter__caja input[type="text"]{
 	width: 100%;
 	max-width: 100%;
+	font-size: 12px;
 }
 .editor__jefe{
 	margin-top: 20px;
@@ -323,10 +325,10 @@
 .salud__a__z h3 a{
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: .1px;
-	top: -5px;
+	top: 0px;
 	position: relative;
 }
 .salud__a__z ul{

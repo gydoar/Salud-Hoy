@@ -42,12 +42,27 @@
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 
-		
+		<?php $url_actual = "http://" . $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"]; ?>
+    
+	    <!-- Banner Desplegable Home Header 1200 x 60-->
+	    <!-- Se mostrara solo si esta en el Home-->
+	    <?php if ($url_actual == 'http://localhost/maldonado/saludhoy/') { ?>
+
 		<!-- Banner Ads Header -->
 		<!-- Banner de 1200 x 60 PX -->
 		<section class="container ads__header">
 			<a href="#"><img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/ads_header.png" alt="ads header"></a>
 		</section>
+
+		<?php }else{ ?>
+        
+
+    	<?php } ?>
+
+
+    	<div class="twelve columns ads__header_phone center">
+	      <a href="#"><img width="320px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/ads_header_phone.png" alt="ads-header-small"></a>
+	    </div>
 
 		
 		<!-- Header -->
@@ -80,21 +95,28 @@
 			<!-- Header principal -->
 			<section class="header__principal">
 				<div class="container">
+
 					<!-- Logo -->
-					<div class="three columns">
+					<div class="three columns logo">
 						<h1><a href="<?php echo home_url('/'); ?>"><img class="twelve columns" width="245px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/logo.png" alt=""></a></h1>
 					</div>
 
 					<!-- Menu principal -->
 					<nav class="six columns" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-						<ul class="menu__header">
-							<li><a href="#">Actualidad</a></li>
-							<li><a href="#">Centros</a></li>
-							<li><a href="#">Buscando Bienestar</a></li>
-							<li><a href="#">Paciente</a></li>
-							<li><a href="#">Cursos</a></li>
-							<li><a href="#">Salud A - Z</a></li>
-						</ul>
+						<div class="rmm style">
+							<ul class="menu__header">
+								<li><a href="#">Actualidad</a></li>
+								<li><a href="#">Centros</a></li>
+								<li><a href="#">Buscando Bienestar</a>
+									<ul>
+										<li><a href="#">Prueba</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Paciente</a></li>
+								<li><a href="#">Cursos</a></li>
+								<li><a href="#">Salud A - Z</a></li>
+							</ul>
+						</div>
 					</nav>
 
 					<!-- Buscador menu header -->
