@@ -261,16 +261,21 @@
 	margin-top: 20px;
 }
 .editor__jefe h3{
-	max-width: 38%;
+	max-width: 30%;
+}
+.editor__jefe h3 a{
+	font-size: 16.27px;
 }
 .editor__jefe h5{
 	color: #000000;
-	font-weight: 500;
-	margin-bottom: 10px;	
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: 20px;	
 }
 .editor__jefe p{
-	font-size: 12px;
+	font-size: 14px;
 	text-align: justify;
+	font-weight: 300;
 }
 .ads__footer img{
 	max-width: 100%;
