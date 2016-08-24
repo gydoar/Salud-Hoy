@@ -3,7 +3,11 @@
 \*------------------------------------*/
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+		.ads__header_phone{
+			display: none
+		}
+	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -18,12 +22,15 @@
 		}
 		
 		.ads__header_phone{
-			display: inline-block;
+			display: none;
 		}
 		.ads__header{
 			display: none;
 		}
-		.ads__header_phone img{
+		.ads__header_tablet{
+			display: inline-block;
+		}
+		.ads__header_tablet img{
 			text-align: center;
 		}
 		.de__actualidad h3{
@@ -32,7 +39,9 @@
 		.lo__destacado h3{
 			max-width: 40%;
 		}
-		
+		.ads__header_phone{
+			display: none
+		}
 
 		.buscar__header input[type="text"]{
 			width: 90%;
@@ -69,6 +78,9 @@
 	    }
 
 	}
+	
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -92,6 +104,9 @@
 			display: inline-block;
 		}
 		.ads__header{
+			display: none;
+		}
+		.ads__footer{
 			display: none;
 		}
 		.ads__header_phone img{
@@ -162,6 +177,9 @@
 		.ads__header{
 			display: none;
 		}
+		.ads__footer{
+			display: none;
+		}
 		.ads__header_phone img{
 			text-align: center;
 		}
@@ -179,12 +197,15 @@
 		}
 		.logo__footer img{
 			width: 50%;
+			text-align: center;
 			margin: 0 auto !important;
 		}
 		.menu__header{
 			border-right: none;
 		}
-		
+		.buscar__header{
+			margin-top: -66px;
+		}
 		.buscar__header input[type="text"]{
 			width: 70%;
 			float: right;
@@ -217,5 +238,56 @@
 	    .menu>ul>li>a.sel, .menu>ul >li>a:hover {
 	    	border: none;
 	    	text-decoration: underline;
+	    }
+	    .nuestros__portales h3{
+	    	max-width: 63%;
+	    }
+	    .lo__destacado h3{
+	    	max-width: 50%;
+	    }
+	    .editor__jefe h3, .lo__destacado h3{
+	    	max-width: 100%;
+	    }
+	    .nuestros__portales__cajas h4{
+	    	width: 100%;
+	    }
+	    ul.menu__top__header{
+	    	margin-bottom: 10px;
+	    }
+	    .centros__profesionales h3{
+	    	max-width: 81% !important;
+	    }
+	    .de__actualidad h3{
+	    	max-width: 70%;
+	    }
+	    .el__abc__de h2{
+	    	margin-top: 10px;
+	    }
+	    .el__abc__de p{
+	    	padding: 0px 10px;
+	    }
+	    .salud__a__z ul li{
+	    	height: 15px;
+	    	width: 15px;
+	    }
+	    .no__display__phone{
+	    	display: none !important;
+	    }
+	    .para_el_paciente h2{
+	    	margin-top: 20px;
+	    }
+	    .flex-caption p{
+	    	display: none;
+	    }
+	    .flex-caption h2{
+	    	font-size: 16px;
+	    }
+	    .flex-caption{
+	    	width: 82%;
+	    	padding: 5%;
+	    }
+	    .copyright__contact li{
+	    	margin-right: 0px;
+	    	margin: 0px 10px;
 	    }
 	}

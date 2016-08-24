@@ -194,10 +194,10 @@ ul.menu__header, .menu__header li{
 	border: 2px solid #ffffff;
 	padding: 0px 3px;
 }
-.ads__header_phone{
+.ads__header_phone, .ads__header_tablet{
 	display: none;
 	text-align: center !important;
 }
-.ads__header_phone img{
+.ads__header_phone img, .ads__header_tablet img{
 	max-width: 100%;
 }

@@ -4,15 +4,15 @@
 	<!-- Menu Footer -->
 	<div class="menu__footer container">
 		<ul>
-			<li><a href="#">Términos de Uso</a></li>
-			<li><a href="#">Políticas de Privacidad</a></li>
-			<li><a href="#">Acerca de ILADIBA</a></li>
-			<li><a href="#">Suscríbase</a></li>
-			<li><a href="#">Paute con Nosotros</a></li>
-			<li><a href="#">Trabaje con Nosotros</a></li>
-			<li><a href="#">Mapa del Sitio</a></li>
-			<li><a href="#">Contáctenos</a></li>
-			<li><a href="#">Newsletter SALUD HOY</a></li>
+			<li class=""><a href="#">Términos de Uso</a></li>
+			<li class=""><a href="#">Políticas de Privacidad</a></li>
+			<li class="no__display__phone"><a href="#">Acerca de ILADIBA</a></li>
+			<li class="no__display__phone"><a href="#">Suscríbase</a></li>
+			<li class="no__display__phone"><a href="#">Paute con Nosotros</a></li>
+			<li class="no__display__phone"><a href="#">Trabaje con Nosotros</a></li>
+			<li class="no__display__phone"><a href="#">Mapa del Sitio</a></li>
+			<li class="no__display__phone"><a href="#">Contáctenos</a></li>
+			<li class="no__display__phone"><a href="#">Newsletter SALUD HOY</a></li>
 		</ul>
 	</div>
 
@@ -62,7 +62,7 @@
 					</div>
 
 					<div class="three columns logo__footer">
-						<a target="new" href="#"><img width="171px" class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/images/footer/logo_tekton.png" alt="Logo Tekton"></a>
+							<a target="new" href="#"><img width="171px" class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/images/footer/logo_tekton.png" alt="Logo Tekton"></a>
 					</div>
 				</div>
 					

@@ -8,10 +8,10 @@
 <?php get_header(); ?>
 
 
-<!-- Slider caption 
+<!-- Slider caption -->
 
 <div class="container">
-	<!-- Place somewhere in the <body> of your page 
+	<!-- Place somewhere in the <body> of your page -->
 	<div class="flexslider-caption">
 	  <ul class="slides">
 	    <li>
@@ -39,7 +39,7 @@
 	</div>
 </div>
 
--->
+
 
 <!-- Section 2 De actualidad -->
 <div class="container">
@@ -60,9 +60,9 @@
 
 				<div class="espacio__actualidad__cajas"><br></div>
 
-				<h2>Las guías son especialmente aplicables si el problema es molesto para el paciente...</h2>
+				<h2 class="no__display__phone">Las guías son especialmente aplicables si el problema es molesto para el paciente...</h2>
 
-				<a class="boton_vermas boton2" href="#">Ver más ></a>
+				<a class="boton_vermas boton2 no__display__phone" href="#">Ver más ></a>
 			
 			</div>
 			<div class="six columns">
@@ -76,9 +76,9 @@
 
 				<div class="espacio__actualidad__cajas"><br></div>
 
-				<h2>Las guías son especialmente aplicables si el problema es molesto para el paciente...</h2>
+				<h2 class="no__display__phone">Las guías son especialmente aplicables si el problema es molesto para el paciente...</h2>
 
-				<a class="boton_vermas boton2" href="#">Ver más ></a>
+				<a class="boton_vermas boton2 no__display__phone" href="#">Ver más ></a>
 			</div>
 		</div>
 
@@ -139,11 +139,11 @@
 							<a class="boton_vermas boton2" href="#">Ver más ></a>
 							<br>
 						</div>
-						<div class="line__buscando__bienestar"></div>
+						<div class="line__buscando__bienestar no__display__phone"></div>
 						<div>
 
-							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Ver más ></a>
+							<h2 class="no__display__phone">Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
+							<a class="boton_vermas boton2 no__display__phone" href="#">Ver más ></a>
 						</div>
 					</div>
 					<div class="six columns">
@@ -154,11 +154,11 @@
 							<a class="boton_vermas boton2" href="#">Ver más ></a>
 							<br>
 						</div>
-						<div class="line__buscando__bienestar"></div>
+						<div class="line__buscando__bienestar no__display__phone"></div>
 						<div>
 
-							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Ver más ></a>
+							<h2 class="no__display__phone">Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
+							<a class="boton_vermas boton2 no__display__phone" href="#">Ver más ></a>
 						</div>
 					</div>
 				</div>
@@ -181,18 +181,18 @@
 						<a class="boton_vermas boton2" href="#">Ver más ></a>
 					</div>
 
-					<div class="line2__medicina__alternativa"><hr></div>
+					<div class="line2__medicina__alternativa no__display__phone"><hr></div>
 
-					<div>
+					<div class="no__display__phone">
 						<h2>Jabón ordinario tan eficaz como jabón antibacteriano con triclosán para…</h2>
 						<p>Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas...</p>
 
 						<a class="boton_vermas boton2" href="#">Ver más ></a>
 					</div>
 
-					<div class="line2__medicina__alternativa"><hr></div>
+					<div class="line2__medicina__alternativa no__display__phone"><hr></div>
 
-					<div>
+					<div class="no__display__phone">
 						<h2>Jabón ordinario tan eficaz como jabón antibacteriano con triclosán para…</h2>
 						<p>Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas...</p>
 
@@ -218,11 +218,11 @@
 				<li><a href="#">¿Qué es la diabetes?</a></li>
 				<li><a href="#">¿Qué es la diabetes?</a></li>
 				<li><a href="#">¿Pueden los niños sufrir de diabetes tipo 2?</a></li>
-				<li><a href="#">¿Qué es la diabetes?</a></li>
-				<li><a href="#">¿Qué es la diabetes?</a></li>
-				<li><a href="#">¿Pueden los niños sufrir de diabetes tipo 2?</a></li>
-				<li><a href="#">¿Qué es la diabetes?</a></li>
-				<li><a href="#">¿Pueden los niños sufrir de diabetes tipo 2?</a></li>
+				<li class="no__display__phone"><a href="#">¿Qué es la diabetes?</a></li>
+				<li class="no__display__phone"><a href="#">¿Qué es la diabetes?</a></li>
+				<li class="no__display__phone"><a href="#">¿Pueden los niños sufrir de diabetes tipo 2?</a></li>
+				<li class="no__display__phone"><a href="#">¿Qué es la diabetes?</a></li>
+				<li class="no__display__phone"><a href="#">¿Pueden los niños sufrir de diabetes tipo 2?</a></li>
 			</ul>
 		</div>
 
@@ -385,7 +385,7 @@
 
 	<!-- Sidebar 2 -->
 	<div class="four columns sidebar__2 center">
-		<div class="ads__sidebar__2">
+		<div class="ads__sidebar__2 no__display__phone">
 			<a href="#"><img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/banner_300x250.png" alt=""></a>
 		</div>
 
@@ -429,6 +429,12 @@
 <!-- Ads Footer 728 x 90 -->
 <div class="container center ads__footer">
 	<img width="728px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/banner_728x90.png" alt="">
+</div>
+
+<div class="container">
+	<div class="twelve columns ads__header_phone center">
+		<a href="#"><img width="320px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/ads_header_phone.png" alt="ads-header-small"></a>
+	</div>
 </div>
 
 <?php get_footer(); ?>

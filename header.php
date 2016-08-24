@@ -43,10 +43,9 @@
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 
 		<?php $url_actual = "http://" . $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"]; ?>
-    
-	    <!-- Banner Desplegable Home Header 1200 x 60-->
+    	
 	    <!-- Se mostrara solo si esta en el Home-->
-	    <?php if ($url_actual == 'http://saludhoy.tektontech.com/') { ?>
+	    <?php if ($url_actual == "http://localhost/maldonado/saludhoy/")  { ?>
 
 		<!-- Banner Ads Header -->
 		<!-- Banner de 1200 x 60 PX -->
@@ -54,16 +53,22 @@
 			<a href="#"><img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/ads_header.png" alt="ads header"></a>
 		</section>
 
-		<?php }else{ ?>
-        
-
-    	<?php } ?>
+		<div class="container">
+			<div class="twelve columns ads__header_tablet center">
+		      <a href="#"><img width="728px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/banner_728x90.png" alt="ads-header-small"></a>
+		    </div>
+		</div>
 
 		<div class="container">
 			<div class="twelve columns ads__header_phone center">
 		      <a href="#"><img width="320px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/ads_header_phone.png" alt="ads-header-small"></a>
 		    </div>
 		</div>
+
+		<?php }else{ ?>
+        
+
+    	<?php } ?>
     	
 
 		
@@ -75,7 +80,7 @@
 					<!-- Menu top -->
 					<ul class="menu__top__header">
 						<li><a href="#">Acerca de SALUD HOY</a></li>
-						<li><a href="#">Newsletter SALUD HOY</a></li>
+						<li><a href="#">Newsletter <div class="no__display__phone">SALUD HOY</div></a></li>
 						<li><a href="#">Contáctenos</a></li>
 					</ul>
 
