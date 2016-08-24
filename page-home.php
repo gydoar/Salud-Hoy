@@ -8,9 +8,10 @@
 <?php get_header(); ?>
 
 
-<!-- Slider caption -->
+<!-- Slider caption 
+
 <div class="container">
-	<!-- Place somewhere in the <body> of your page -->
+	<!-- Place somewhere in the <body> of your page 
 	<div class="flexslider-caption">
 	  <ul class="slides">
 	    <li>
@@ -38,6 +39,8 @@
 	</div>
 </div>
 
+-->
+
 <!-- Section 2 De actualidad -->
 <div class="container">
 	<div class="seven columns de__actualidad">
@@ -53,13 +56,13 @@
 
 				<h2>Las guías son especialmente aplicables si el problema es molesto para el paciente...</h2>
 
-				<a class="boton_vermas boton2" href="#">Leer más ></a>
+				<a class="boton_vermas boton2" href="#">Ver más ></a>
 
 				<div class="espacio__actualidad__cajas"><br></div>
 
 				<h2>Las guías son especialmente aplicables si el problema es molesto para el paciente...</h2>
 
-				<a class="boton_vermas boton2" href="#">Leer más ></a>
+				<a class="boton_vermas boton2" href="#">Ver más ></a>
 			
 			</div>
 			<div class="six columns">
@@ -69,13 +72,13 @@
 
 				<h2>Las guías son especialmente aplicables si el problema es molesto para el paciente...</h2>
 
-				<a class="boton_vermas boton2" href="#">Leer más ></a>
+				<a class="boton_vermas boton2" href="#">Ver más ></a>
 
 				<div class="espacio__actualidad__cajas"><br></div>
 
 				<h2>Las guías son especialmente aplicables si el problema es molesto para el paciente...</h2>
 
-				<a class="boton_vermas boton2" href="#">Leer más ></a>
+				<a class="boton_vermas boton2" href="#">Ver más ></a>
 			</div>
 		</div>
 
@@ -91,7 +94,7 @@
 							<h4>Enfermería</h4>
 
 							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Leer más ></a>
+							<a class="boton_vermas boton2" href="#">Ver más ></a>
 							<br><br>
 						</div>
 
@@ -99,7 +102,7 @@
 							<h4>Medicina</h4>
 
 							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Leer más ></a>
+							<a class="boton_vermas boton2" href="#">Ver más ></a>
 						</div>
 					</div>
 					<div class="six columns">
@@ -107,7 +110,7 @@
 							<h4>Odontología</h4>
 
 							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Leer más ></a>
+							<a class="boton_vermas boton2" href="#">Ver más ></a>
 							<br><br>
 						</div>
 
@@ -115,7 +118,7 @@
 							<h4>Psicología</h4>
 
 							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Leer más ></a>
+							<a class="boton_vermas boton2" href="#">Ver más ></a>
 						</div>
 					</div>
 				</div>
@@ -133,14 +136,14 @@
 							<h4>Salud Femenina</h4>
 
 							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Leer más ></a>
+							<a class="boton_vermas boton2" href="#">Ver más ></a>
 							<br>
 						</div>
 						<div class="line__buscando__bienestar"></div>
 						<div>
 
 							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Leer más ></a>
+							<a class="boton_vermas boton2" href="#">Ver más ></a>
 						</div>
 					</div>
 					<div class="six columns">
@@ -148,14 +151,14 @@
 							<h4>Salud en Niños</h4>
 
 							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Leer más ></a>
+							<a class="boton_vermas boton2" href="#">Ver más ></a>
 							<br>
 						</div>
 						<div class="line__buscando__bienestar"></div>
 						<div>
 
 							<h2>Guía 2015 de Tratamiento de la Migraña Aguda en Adultos de la AHS …</h2>
-							<a class="boton_vermas boton2" href="#">Leer más ></a>
+							<a class="boton_vermas boton2" href="#">Ver más ></a>
 						</div>
 					</div>
 				</div>
@@ -175,7 +178,7 @@
 						<h2>Jabón ordinario tan eficaz como jabón antibacteriano con triclosán para…</h2>
 						<p>Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas...</p>
 
-						<a class="boton_vermas boton2" href="#">Leer más ></a>
+						<a class="boton_vermas boton2" href="#">Ver más ></a>
 					</div>
 
 					<div class="line2__medicina__alternativa"><hr></div>
@@ -184,7 +187,7 @@
 						<h2>Jabón ordinario tan eficaz como jabón antibacteriano con triclosán para…</h2>
 						<p>Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas...</p>
 
-						<a class="boton_vermas boton2" href="#">Leer más ></a>
+						<a class="boton_vermas boton2" href="#">Ver más ></a>
 					</div>
 
 					<div class="line2__medicina__alternativa"><hr></div>
@@ -193,7 +196,7 @@
 						<h2>Jabón ordinario tan eficaz como jabón antibacteriano con triclosán para…</h2>
 						<p>Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas Se ha asociado de manera consistente a aumento en el riesgo de dia. El consumo de carnes rojas, sobre todo procesadas...</p>
 
-						<a class="boton_vermas boton2" href="#">Leer más ></a>
+						<a class="boton_vermas boton2" href="#">Ver más ></a>
 					</div>
 
 				</div>
@@ -237,7 +240,7 @@
 
 					<p>El consumo de carnes rojas, sobre todo procesadas, se ha asociado de manera consistente a aumento en el riesgo de dia...</p>
 					
-					<a class="boton_vermas boton2" href="#">Leer más ></a>
+					<a class="boton_vermas boton2" href="#">Ver más ></a>
 				</div>
 			</div>
 			<div class="line__sidebar__paciente"></div>
@@ -251,7 +254,7 @@
 
 					<p>El consumo de carnes rojas, sobre todo procesadas, se ha asociado de manera consistente a aumento en el riesgo de dia...</p>
 					
-					<a class="boton_vermas boton2" href="#">Leer más ></a>
+					<a class="boton_vermas boton2" href="#">Ver más ></a>
 				</div>
 			</div>
 		</div>
@@ -365,7 +368,7 @@
 			<h4>Hoy en Cursos ILADIBA</h4>
 			<h2>Actualización en cirugía de la obesidad (cirugía bariátrica)</h2>
 			<p>En líneas generales puede decirse que la cirugía de la obesidad y procedimientos invasivos. El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes emitió una actualización de su guía de tamización para diabetes...</p>
-			<a class="boton_vermas boton2" href="#">Leer más ></a>
+			<a class="boton_vermas boton2" href="#">Ver más ></a>
 
 			<div class="twelve columns line__nuestros__portales"></div>
 		</div>
@@ -376,7 +379,7 @@
 			<h4>Hoy en ILADIBA</h4>
 			<h2>Actualización en cirugía de la obesidad (cirugía bariátrica)</h2>
 			<p>En líneas generales puede decirse que la cirugía de la obesidad y procedimientos invasivos. El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes emitió una actualización de su guía de tamización para diabetes...</p>
-			<a class="boton_vermas boton2" href="#">Leer más ></a>
+			<a class="boton_vermas boton2" href="#">Ver más ></a>
 		</div>
 	</div>
 
@@ -388,7 +391,7 @@
 
 		<!-- Newsletter -->
 		<div class="newsletter twelve columns">
-			<h4><a href="#">Regístrese al Newsletter ILADIBA</a></h4>
+			<h4><a href="#">Regístrese al Newsletter SALUD HOY</a></h4>
 				<div class="newsletter__caja center">
 					<p><span>Para enterarse de las noticias más relevantes de Salud</span></p>
 					<input type="text" placeholder="Correo electrónico"><br>

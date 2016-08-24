@@ -137,4 +137,11 @@ $(window).load(function() {
   });
 });
 
+
+//menu hamburguesa
+    $( ".menuRes" ).click(function() {
+      console.log("prueba");
+      $('.menu > ul').toggleClass('show');
+    });
+
 }); /* end of as page load scripts */

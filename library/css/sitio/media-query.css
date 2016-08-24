@@ -6,42 +6,216 @@
 	@media only screen and (max-width: 959px) {}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
-
-	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
-
-	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	    .header .logo{
+			margin-top: 10px;
+		}
+		.show{
+	        display: none;
+	    }
 		.top__header{
 			text-align: center;
 		}
-		.logo{
-			display: none;
-		}
-		.buscar__header{
-			display: none;
-		}
+		
 		.ads__header_phone{
 			display: inline-block;
 		}
 		.ads__header{
 			display: none;
 		}
+		.ads__header_phone img{
+			text-align: center;
+		}
+		.de__actualidad h3{
+			max-width: 70%;
+		}
+		.lo__destacado h3{
+			max-width: 40%;
+		}
+		
+
+		.buscar__header input[type="text"]{
+			width: 90%;
+			float: right;
+			margin-top: -9px;
+			background: url("../../images/header/icon_lupa.png") no-repeat scroll 0 0 #ffffff;
+			background-position: 175px 5px
+		}
+
+		.menuRes {
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        right: 40%;
+        top: 26px;
+        cursor: pointer;
+        z-index: 99999;
+	    }  
+	    .menu ul {
+	        position: absolute;
+	        right: 16%;
+	        top: 38px;
+	        z-index: 99999;
+	        background-color: #0B90D0;
+	        padding: 0px 20px;
+	    }
+	    .menu > ul > li{
+	    	display: block;
+	    	text-align: left;
+	    }
+	    .menu>ul>li>a.sel, .menu>ul >li>a:hover {
+	    	border: none;
+	    	text-decoration: underline;
+	    }
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.header{
+			height: 70px;
+		}
+		.header .logo{
+			margin-top: 10px;
+		}
+		.header .logo img{
+			width: 120px;
+		}
+		.show{
+	        display: none;
+	    }
+		.top__header{
+			text-align: center;
+		}
+		
+		.ads__header_phone{
+			display: inline-block;
+		}
+		.ads__header{
+			display: none;
+		}
+		.ads__header_phone img{
+			text-align: center;
+		}
+		.de__actualidad h3{
+			max-width: 70%;
+		}
+		.lo__destacado h3{
+			max-width: 40%;
+		}
+		.buscar__header input[type="text"]{
+			width: 70%;
+			float: right;
+			margin-top: -25px;
+			background: url("../../images/header/icon_lupa.png") no-repeat scroll 0 0 #ffffff;
+			background-position: 130px 5px
+		}
+
+		.menuRes {
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        right: 50%;
+        top: 9px;
+        cursor: pointer;
+        z-index: 99999;
+	    }  
+	    .menu ul {
+	        position: absolute;
+	        right: 24%;
+	        top: 38px;
+	        z-index: 99999;
+	        background-color: #0B90D0;
+	        padding: 0px 20px;
+	    }
+	    .menu > ul > li{
+	    	display: block;
+	    	text-align: left;
+	    }
+	    .menu>ul>li>a.sel, .menu>ul >li>a:hover {
+	    	border: none;
+	    	text-decoration: underline;
+	    }
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+		.header{
+			height: 70px;
+		}
+		.header .logo{
+			margin-top: 10px;
+		}
+		.header .logo img{
+			width: 120px;
+		}
+		.show{
+	        display: none;
+	    }
 		.top__header{
 			text-align: center;
 		}
-		.logo{
-			display: none;
-		}
+		
 		.ads__header_phone{
 			display: inline-block;
 		}
 		.ads__header{
 			display: none;
 		}
+		.ads__header_phone img{
+			text-align: center;
+		}
+		.de__actualidad h3{
+			max-width: 50%;
+		}
+		.footer__logos ul li img{
+			margin-bottom: 20px;
+		}
+		.copyright{
+			text-align: center !important;
+		}
+		.logo__footer{
+			text-align: center !important;
+		}
+		.logo__footer img{
+			width: 50%;
+			margin: 0 auto !important;
+		}
+		.menu__header{
+			border-right: none;
+		}
+		
+		.buscar__header input[type="text"]{
+			width: 70%;
+			float: right;
+			margin-top: -25px;
+			background: url("../../images/header/icon_lupa.png") no-repeat scroll 0 0 #ffffff;
+			background-position: 130px 3px;
+		}
+
+		.menuRes {
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        right: 50%;
+        top: 9px;
+        cursor: pointer;
+        z-index: 99999;
+	    }  
+	    .menu ul {
+	        position: absolute;
+	        right: 16%;
+	        top: 38px;
+	        z-index: 99999;
+	        background-color: #0B90D0;
+	        padding: 0px 20px;
+	    }
+	    .menu > ul > li{
+	    	display: block;
+	    	text-align: left;
+	    }
+	    .menu>ul>li>a.sel, .menu>ul >li>a:hover {
+	    	border: none;
+	    	text-decoration: underline;
+	    }
 	}

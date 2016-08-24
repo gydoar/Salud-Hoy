@@ -50,6 +50,7 @@
 	text-decoration: none;
 	color: #3F3F3F;
 	font-size: 14px;
+	max-width: 100%;
 }
 .lo__destacado ul li a:hover{
 	color: #A4A4A4;
@@ -229,6 +230,7 @@
 .newsletter{
 	margin-top: 10px;
 	background: #F1EFEF;
+	padding-bottom: 10px;
 }
 .newsletter h4{
 	background-color: #82A629;

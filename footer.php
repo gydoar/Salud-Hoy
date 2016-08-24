@@ -12,7 +12,7 @@
 			<li><a href="#">Trabaje con Nosotros</a></li>
 			<li><a href="#">Mapa del Sitio</a></li>
 			<li><a href="#">Contáctenos</a></li>
-			<li><a href="#">Newsletter ILADIBA</a></li>
+			<li><a href="#">Newsletter SALUD HOY</a></li>
 		</ul>
 	</div>
 
@@ -61,7 +61,7 @@
 						<p>Se prohíbe la reproducción total o parcial de los contenidos, así como <br>su traducción a cualquier idioma sin autorización escrita del titular</p>
 					</div>
 
-					<div class="three columns">
+					<div class="three columns logo__footer">
 						<a target="new" href="#"><img width="171px" class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/images/footer/logo_tekton.png" alt="Logo Tekton"></a>
 					</div>
 				</div>

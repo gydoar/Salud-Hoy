@@ -6,7 +6,7 @@
 	padding: 1px 0px 10px 0px;
 }
 a.boton_vermas{
-	max-width: 28%;
+	max-width: 100%;
 	border: 1px solid #000000;
 	text-decoration: none;
 	font-size: 12px;
@@ -16,6 +16,7 @@ a.boton_vermas{
 	float: right;
 }
 a.boton2{
+	max-width: 100%;
 	border: 1px solid #4E5B6E;
 	color: #4E5B6E;
 	font-size: 10px;

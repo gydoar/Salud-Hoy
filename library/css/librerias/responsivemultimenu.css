@@ -13,10 +13,10 @@
 
 /* minimal styles for that navi */
 .rmm {margin: 0 auto;}
-.rmm ul {margin: 0; padding:0; list-style: none; position: relative; background: #000;}
+.rmm ul {margin: 0; padding:0; list-style: none; position: relative;}
 .rmm ul:after {content: ""; clear: both; display: block;}
 .rmm ul li {float: left;}
-.rmm ul li:hover {background: #202020;}
+
 .rmm ul li:hover > ul {display: block;}
 .rmm ul li:hover a{color: #fff;}
 .rmm ul li a {color: #fff; display: block; text-decoration: none;}
@@ -79,16 +79,7 @@
 
 .rmm .rmm-mobile li:hover > ul {display: none;}
 
-/* arrow down for wide screen */
-.rmm.style {text-align: left; font-family: Tahoma;}
-.rmm.style ul {box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15); background:#990; text-transform: uppercase; display: inline-table; text-align:left;}
-.rmm.style ul li {text-align:left;}
-.rmm.style ul li:hover {background: #4b545f;}
-.rmm.style ul ul {display: none; margin:0; background: #5f6975; border-radius: 0px; padding: 0; position: absolute;}
-.rmm.style ul li a {color: #fff; font-weight:600; display: block; padding: 15px 35px; text-decoration: none; font-weight:600; }
-.rmm.style ul ul li {border-bottom: 1px solid #575F6A; border-top: 1px solid #6B727C;}
-.rmm.style ul ul li a {padding: 12px 35px; color: #fff; }
-.rmm.style ul ul li a:hover {background: #4b545f;}
+
 
 /* arrow down for wide screen */
 .rmm.style ul li > a:not(:only-child):after {

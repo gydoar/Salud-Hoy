@@ -46,7 +46,7 @@
     
 	    <!-- Banner Desplegable Home Header 1200 x 60-->
 	    <!-- Se mostrara solo si esta en el Home-->
-	    <?php if ($url_actual == 'http://localhost/maldonado/saludhoy/') { ?>
+	    <?php if ($url_actual == 'http://saludhoy.tektontech.com/') { ?>
 
 		<!-- Banner Ads Header -->
 		<!-- Banner de 1200 x 60 PX -->
@@ -59,10 +59,12 @@
 
     	<?php } ?>
 
-
-    	<div class="twelve columns ads__header_phone center">
-	      <a href="#"><img width="320px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/ads_header_phone.png" alt="ads-header-small"></a>
-	    </div>
+		<div class="container">
+			<div class="twelve columns ads__header_phone center">
+		      <a href="#"><img width="320px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/ads_header_phone.png" alt="ads-header-small"></a>
+		    </div>
+		</div>
+    	
 
 		
 		<!-- Header -->
@@ -92,26 +94,47 @@
 				</div>
 			</div>
 
-			<!-- Header principal -->
+
+			<!-- Menu -->
+
+			<div class="header">
+				<div class="headerCont cont container">
+					<div class="logo">
+						<h1><a href="<?php echo home_url('/'); ?>"><img width="200px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/logo.png" alt="Tekton"></a></h1>	
+					</div>
+					<div class="menu">
+						<a class="menuRes">☰</a>
+						<ul class="show">
+							<li><a href="#">Actualidad</a></li>
+							<li><a href="#">Centros</a></li>
+							<li><a href="#">Buscando Bienestar</a></li>
+							<li><a href="#">Paciente</a></li>
+							<li><a href="#">Cursos</a></li>
+							<li><a href="#">Salud A - Z</a></li>
+						</ul>
+					</div>
+					<div class="buscar__header">
+						<input type="text" placeholder="Buscar tema de interés">
+					</div>
+				</div>
+			</div>
+
+			<!-- Header principal 
 			<section class="header__principal">
 				<div class="container">
 
-					<!-- Logo -->
+					<!-- Logo 
 					<div class="three columns logo">
 						<h1><a href="<?php echo home_url('/'); ?>"><img class="twelve columns" width="245px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/logo.png" alt=""></a></h1>
 					</div>
 
-					<!-- Menu principal -->
+					<!-- Menu principal 
 					<nav class="six columns" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<div class="rmm style">
 							<ul class="menu__header">
 								<li><a href="#">Actualidad</a></li>
 								<li><a href="#">Centros</a></li>
-								<li><a href="#">Buscando Bienestar</a>
-									<ul>
-										<li><a href="#">Prueba</a></li>
-									</ul>
-								</li>
+								<li><a href="#">Buscando Bienestar</a></li>
 								<li><a href="#">Paciente</a></li>
 								<li><a href="#">Cursos</a></li>
 								<li><a href="#">Salud A - Z</a></li>
@@ -119,11 +142,12 @@
 						</div>
 					</nav>
 
-					<!-- Buscador menu header -->
+					<!-- Buscador menu header 
 					<div class="three columns buscar__header">
 						<input type="text" placeholder="Buscar tema de interés">
 					</div>
 				</div>
 			</section>
+		-->
 		</header>
 	

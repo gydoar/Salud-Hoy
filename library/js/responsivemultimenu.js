@@ -21,7 +21,7 @@ function adaptMenu() {
 		$('.rmm-menu').children("li").each(function() {
 			if($(this).parent().hasClass('rmm-menu')){
 				width = $(this).outerWidth();//outerWidth();
-				if(width<800){
+				if(width>0){
 					maxWidth += width;
 				}
 			}
@@ -31,7 +31,7 @@ function adaptMenu() {
 		var width = $('.rmm').css('max-width');
 		width = width.replace('px', ''); 
 		
-		if ( $(this).parent().width() > width ) {
+		if ( $(this).parent().width() > 400 ) {
 			$('.rmm-menu').removeClass("rmm-mobile");
 			
 			//remove all classes from mobile verion
@@ -89,7 +89,7 @@ function responsiveMultiMenu() {
 		var str=''
 		str+='<div class="rmm-toggled rmm-view rmm-closed">'
 			str+='<div class="rmm-toggled-controls">'
-				str+='<div class="rmm-toggled-title"><img src="../../../images/header/logo-phone.png"></div>';
+				str+='<div class="rmm-toggled-title"><p><img src="http://saludhoy.tektontech.com/wp-content/themes/saludhoy/library/images/header/logo-phone.png"></p></div>';
 				str+='<div class="rmm-toggled-button"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div>';
 			str+='</div>';
 		str+='</div>';
