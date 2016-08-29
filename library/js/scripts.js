@@ -144,4 +144,13 @@ $(window).load(function() {
       $('.menu > ul').toggleClass('show');
     });
 
+
+    $("#slider-container").sliderUi({
+      speed: 500,
+      cssEasing: "cubic-bezier(0.285, 1.015, 0.165, 1.000)"
+    });
+    $("#caption-slide").sliderUi({
+      caption: true
+    });
+
 }); /* end of as page load scripts */

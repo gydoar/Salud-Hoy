@@ -5,6 +5,7 @@
 @import url('librerias/flexslider.css');
 @import url('librerias/responsivemultimenu.css');
 @import url('librerias/ionicons.min.css');
+@import url('librerias/slider.css');
 
 
 /* Sitio */
@@ -12,6 +13,7 @@
 @import url('sitio/header.css');
 @import url('sitio/footer.css');
 @import url('sitio/home.css');
+@import url('sitio/registro.css');
 @import url('sitio/media-query.css');
 
 

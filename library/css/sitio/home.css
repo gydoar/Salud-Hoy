@@ -51,9 +51,10 @@
 	color: #3F3F3F;
 	font-size: 14px;
 	max-width: 100%;
+
 }
 .lo__destacado ul li a:hover{
-	color: #A4A4A4;
+	color: #BDBDBD;
 }
 .centros__profesionales{
 	margin-top: 20px;
@@ -127,6 +128,23 @@
 	background-color: #82A629;
 	margin-bottom: 0px;
 }
+.especiales__salud__hoy .boton_vermas{
+	max-width: 100%;
+	border: 1px solid #4E5B6E;
+	color: #4E5B6E;
+	font-size: 10px;
+}
+.especiales__salud__hoy .boton_vermas:hover{
+	border: 1px solid #4E5B6E;
+	color: #ffffff;
+	background-color: #4E5B6E;
+
+	-webkit-transition-duration: 500ms;
+    -moz-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
 .flexslider{
 	background: #F1F1F2;
 	border: none;
@@ -145,6 +163,7 @@
 }
 .el__abc__de{
 	background: #F1F1F2;
+	padding-bottom: 10px;
 }
 .el__abc__de h2{
 	text-align: center;
@@ -348,8 +367,9 @@
 	border-radius: 15px;
 	border: 3px solid #F2F0F0;
 	height: 18px;
-	width: 18px;
-	line-height: normal
+	width: 20px;
+	line-height: 17px;
+
 }
 .salud__a__z ul li:hover{
 	border: 3px solid #0C0C0C;
@@ -362,4 +382,7 @@
 }
 .salud__a__z ul li a:hover{
 	color: #0C0C0C;
+}
+.la_diabetes{
+	padding-right: 10px;
 }

@@ -57,7 +57,7 @@ footer{
 	display: inline-block;
 	padding: 10px 0px;
 	margin-bottom: 0px;
-	vertical-align: bottom;
+	vertical-align: middle;
 }
 .copyright__contact li{
 	margin-right: 30px;
@@ -98,4 +98,37 @@ footer{
 	margin-bottom: 0px;
 	font-size: 10px;
 	color: #ffffff;
+}
+
+.tw-footer{
+	background-image: url("../../images/footer/icon_twitter.png");
+	height: 24px;
+	width: 24px;
+}
+.tw-footer:hover{
+	background-image: url("../../images/footer/twitter_hover.png");
+}
+
+.fb-footer{
+	background-image: url("../../images/footer/icon_facebook.png");
+	height: 24px;
+	width: 24px;
+}
+.fb-footer:hover{
+	background-image: url("../../images/footer/facebook_hover.png");
+}
+
+.in-footer{
+	background-image: url("../../images/footer/icon_linkedin.png");
+	height: 24px;
+	width: 24px;
+}
+.in-footer:hover{
+	background-image: url("../../images/footer/linkedin_hover.png");
+}
+.logo__footer{
+	text-align: center;
+}
+.logo__footer img{
+	max-width: 100%;
 }

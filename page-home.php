@@ -11,7 +11,43 @@
 <!-- Slider caption -->
 
 <div class="container">
+
+	<div class="slider-container" id="caption-slide">
+	<div class="slider">
+		<div class="slide">
+			<img src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/slider.png" alt="">
+			<span class="caption">
+				<h5>EXCLUSIVO</h5>
+				<h2>FDA alerta sobre arritmias con azitromicina</h2>
+				<p>El consumo de carnes rojas, sobre todo procesadas, se ha asociado de manera consistente a aumento en el riesgo de dia...</p>
+				<a href="#">Leer más ></a>
+			</span>
+		</div>
+		<div class="slide">
+			<img src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/slider.png" alt="">
+			<span class="caption">
+				<h5>EXCLUSIVO</h5>
+				<h2>FDA alerta sobre arritmias con azitromicina</h2>
+				<p>El consumo de carnes rojas, sobre todo procesadas, se ha asociado de manera consistente a aumento en el riesgo de dia...</p>
+				<a href="#">Leer más ></a>
+			</span>
+		</div>
+		<div class="slide">
+			<img src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/slider.png" alt="">
+			<span class="caption">
+				<h5>EXCLUSIVO</h5>
+				<h2>FDA alerta sobre arritmias con azitromicina</h2>
+				<p>El consumo de carnes rojas, sobre todo procesadas, se ha asociado de manera consistente a aumento en el riesgo de dia...</p>
+				<a href="#">Leer más ></a>
+			</span>
+		</div>
+	</div>
+
+	<div class="switch" id="prev"><span></span></div>
+	<div class="switch" id="next"><span></span></div>
+</div>
 	<!-- Place somewhere in the <body> of your page -->
+	<!--
 	<div class="flexslider-caption">
 	  <ul class="slides">
 	    <li>
@@ -37,6 +73,7 @@
 	    </li>
 	  </ul>
 	</div>
+	-->
 </div>
 
 
@@ -105,7 +142,9 @@
 							<a class="boton_vermas boton2" href="#">Ver más ></a>
 						</div>
 					</div>
+
 					<div class="six columns">
+						<div class="spacing__centros"></div>
 						<div>
 							<h4>Odontología</h4>
 
@@ -147,6 +186,7 @@
 						</div>
 					</div>
 					<div class="six columns">
+						<div class="spacing__centros"></div>
 						<div>
 							<h4>Salud en Niños</h4>
 
@@ -234,7 +274,7 @@
 				<div class="four columns">
 					<img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/para_paciente.png" alt="">
 				</div>
-				<div class="eight columns">
+				<div class="eight columns para__el__paciente__cajas__texto">
 
 					<h2>Rebajar consumo de carnes rojas disminuye riesgo ...</h2>
 
@@ -248,7 +288,7 @@
 				<div class="four columns">
 					<img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/para_paciente-2.png" alt="">
 				</div>
-				<div class="eight columns">
+				<div class="eight columns para__el__paciente__cajas__texto">
 
 					<h2>Rebajar consumo de carnes rojas disminuye riesgo ...</h2>
 
@@ -280,7 +320,7 @@
 				    <li>
 				      <p><strong>Dosificación de medicamentos pediátricos orales debe ser en sistema métrico…</strong><br><br>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
 					  
-					  <a class="boton_vermas boton_2" href="#">Ver más ></a>
+					  <a class="boton_vermas boton2" href="#">Ver más ></a>
 				    </li>
 				  </ul>
 				</div>
@@ -299,12 +339,11 @@
 						<img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/el_abc.png" alt="">
 					</div>
 					
-					<div class="six columns">
+					<div class="six columns la_diabetes">
 
 						<h2>La diabetes</h2>
 						<p>El Comité de Servicios Preventivos de Estados Unidos (USPSTF sigla de United States Preventive Services Task Force) emitió una actualización de su guía de tamización para diabetes...</p>
-
-						<a class="boton_vermas boton_2" href="#">Ver más ></a>
+						<a class="boton_vermas boton2" href="#">Ver más ></a>
 					</div>
 				</div>
 			</div>
@@ -358,8 +397,8 @@
 
 
 <!-- Nuestros portales -->
-<div class="container nuestros__portales">
-	<div class="eight columns">
+<div class="container">
+	<div class="eight columns nuestros__portales">
 		<div class="twelve columns">
 			<h3><a href="#">NUESTROS PORTALES</a></h3> <div class="line__medicina__alternativa"></div>
 		</div>
@@ -385,8 +424,8 @@
 
 	<!-- Sidebar 2 -->
 	<div class="four columns sidebar__2 center">
-		<div class="ads__sidebar__2 no__display__phone">
-			<a href="#"><img class="twelve columns" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/banner_300x250.png" alt=""></a>
+		<div class="ads__sidebar__2 no__display__phone center">
+			<a href="#"><img src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/home/banner_300x250.png" alt=""></a>
 		</div>
 
 		<!-- Newsletter -->
@@ -395,7 +434,7 @@
 				<div class="newsletter__caja center">
 					<p><span>Para enterarse de las noticias más relevantes de Salud</span></p>
 					<input type="text" placeholder="Correo electrónico"><br>
-					<a class="boton_vermas boton_2" href="#">Regístrese ></a>
+					<a class="boton_vermas boton2 big_boton" href="#">Regístrese ></a>
 				</div>
 		</div>
 	</div>

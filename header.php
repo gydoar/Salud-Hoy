@@ -45,7 +45,7 @@
 		<?php $url_actual = "http://" . $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"]; ?>
     	
 	    <!-- Se mostrara solo si esta en el Home-->
-	    <?php if ($url_actual == "http://localhost/maldonado/saludhoy/")  { ?>
+	    <?php if ($url_actual == "http://saludhoy.tektontech.com/")  { ?>
 
 		<!-- Banner Ads Header -->
 		<!-- Banner de 1200 x 60 PX -->
@@ -80,7 +80,7 @@
 					<!-- Menu top -->
 					<ul class="menu__top__header">
 						<li><a href="#">Acerca de SALUD HOY</a></li>
-						<li><a href="#">Newsletter <div class="no__display__phone">SALUD HOY</div></a></li>
+						<li><a href="#">Newsletter <span class="no__display__phone">SALUD HOY</span></a></li>
 						<li><a href="#">Contáctenos</a></li>
 					</ul>
 
@@ -92,9 +92,14 @@
 
 					<!-- Menu social -->
 					<ul class="menu__social__header">
-						<li><a target="new" href="#"><img width="20px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/twitter.png" alt="Twitter"></a></li>
+						<a href="#"><div class="tw"></div></a>
+						<a href="#"><div class="fb"></div></a>
+						<a href="#"><div class="in"></div></a>
+						<!--
+						<li><a target="new" href="#"><img width="20px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/iconmonstr-twitter-1.svg" alt="Twitter"></a></li>
 						<li><a target="new" href="#"><img width="20px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/facebook.png" alt="Facebook"></a></li>
 						<li><a target="new" href="#"><img width="20px" src="<?php bloginfo('stylesheet_directory' ); ?>/library/images/header/linkedin.png" alt="Linkedin"></a></li>
+						-->
 					</ul>
 				</div>
 			</div>
@@ -118,6 +123,7 @@
 							<li><a href="#">Salud A - Z</a></li>
 						</ul>
 					</div>
+					<div class="line__header"><img src="<?php echo bloginfo('stylesheet_directory' ); ?>/library/images/header/line_horz_buscar.png" alt=""></div>
 					<div class="buscar__header">
 						<input type="text" placeholder="Buscar tema de interés">
 					</div>

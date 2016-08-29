@@ -47,9 +47,15 @@
 				<!-- Iconos sociales copyright -->
 
 				<ul class="copyright__social">
+					<a href="#"><div class="tw-footer"></div></a>
+					<a href="#"><div class="fb-footer"></div></a>
+					<a href="#"><div class="in-footer"></div></a>
+
+					<!--
 					<li><a target="new" href="#"><img widthn="12px" src="<?php bloginfo('template_url' ); ?>/library/images/footer/icon_twitter.png" alt="Twitter"></a></li>
 					<li><a target="new" href="#"><img widthn="12px" src="<?php bloginfo('template_url' ); ?>/library/images/footer/icon_facebook.png" alt="Facebook"></a></li>
 					<li><a target="new" href="#"><img widthn="12px" src="<?php bloginfo('template_url' ); ?>/library/images/footer/icon_linkedin.png" alt="Linkeding"></a></li>
+					-->
 				</ul>
 			</div>
 
@@ -62,7 +68,7 @@
 					</div>
 
 					<div class="three columns logo__footer">
-							<a target="new" href="#"><img width="171px" class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/images/footer/logo_tekton.png" alt="Logo Tekton"></a>
+							<a target="new" href="#"><img width="171px" src="<?php bloginfo('template_url' ); ?>/library/images/footer/logo_tekton.png" alt="Logo Tekton"></a>
 					</div>
 				</div>
 					

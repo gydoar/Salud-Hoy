@@ -13,13 +13,12 @@
 .header .header .menu {
     width: 55%;
 }
-.menu {
-    
-}
+
 .menu ul {
   text-align: center;
   margin-top: 30px;
   text-align: right;
+  z-index: 1;
 }
 .menu > ul > li {
     color: #fff;
@@ -70,8 +69,11 @@
 .menuRes{
     display: none;
     color: #ffffff;
+    z-index: 1;
 }
-
+.menuRes:hover{
+	color: #ffffff;
+}
 .header .buscar__header {
     float: right;
     height: 70px;
@@ -82,11 +84,17 @@
 .buscar__header{
 	width: 15%;
 }
-.logo, .buscar__header, .menu{
+.logo, .buscar__header, .menu, .line__header{
 	display: inline-block;
 	vertical-align: middle;
 }
-
+.line__header{
+	min-height: 100%;
+	width: 1px;
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
 
 
 
@@ -127,6 +135,39 @@
 .menu__social__header img{
 	vertical-align: bottom;
 }
+.menu__social__header a, .copyright__social a{
+	position: relative;
+	display: inline-block;
+	padding: 0px 4px;
+	margin-bottom: -6px;
+}
+.tw{
+	background-image: url("../../images/header/twitter.png");
+	height: 20px;
+	width: 20px;
+}
+.tw:hover{
+	background-image: url("../../images/header/twitter_hover.png");
+}
+
+.fb{
+	background-image: url("../../images/header/facebook.png");
+	height: 20px;
+	width: 20px;
+}
+.fb:hover{
+	background-image: url("../../images/header/facebook_hover.png");
+}
+
+.in{
+	background-image: url("../../images/header/linkedin.png");
+	height: 20px;
+	width: 20px;
+}
+.in:hover{
+	background-image: url("../../images/header/linkedin_hover.png");
+}
+
 a.boton__suscribase__header{
 	color: #9A172F !important;
 	background-color: #ffffff;
@@ -166,14 +207,14 @@ a.boton__suscribase__header:hover{
 
 }
 .buscar__header input[type="text"]{
-	width: 100%;
+	width: 90%;
 	height: 30px;
 	font-size: 12px;
 	max-width: 100%;
 	background: url("../../images/header/icon_lupa.png") no-repeat scroll 0 0 #ffffff;
     border: 1px solid #BFBFBF;
 	padding: 5px 5px 5px 15px;
-    background-position: 186px 5px;
+    background-position: 175px 5px;
     margin-top: 8px;
 }
 ul.menu__header, .menu__header li{

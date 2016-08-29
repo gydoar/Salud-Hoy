@@ -1,0 +1,181 @@
+/* ==========================================================================
+		Slider core styles
+===========================================================================*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slider {
+  position: relative;
+
+  width: 9999px;
+}
+.slider:before,
+.slider:after {
+  display: table;
+
+  content: ' ';
+}
+.slider:after {
+  clear: both;
+}
+.slider .slide {
+  position: relative;
+
+  float: left;
+
+  margin: 0;
+  padding: 0;
+}
+.slider .slide img {
+  display: block;
+
+  max-width: 100%;
+  height: auto;
+}
+.act,
+#prev > span,
+#next > span,
+#slider-nav > a {
+  background: url(../../images/header/arrows.png) no-repeat;
+}
+#next > span,
+#prev > span {
+  display: block;
+
+  width: 16px;
+  height: 24px;
+}
+/* Arrows */
+#next > span {
+  background-position: -20px 0;
+}
+#prev > span {
+  background-position: 0 0;
+}
+#next,
+#prev {
+  position: absolute;
+  top: 50%;
+
+  margin-top: -20px;
+  padding: 10px 15px;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
+
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000'); /* ie8 */
+       -o-user-select: none;
+}
+#prev {
+  left: 10px;
+}
+#next {
+  right: 10px;
+}
+.caption {
+   position: absolute;
+  bottom: 45px;
+  top: 20px;
+  float: right;
+  display: block;
+  right: 50px;
+  width: 35%;
+  max-width: 100%;
+  padding: 20px;
+  color: #fff;
+  background: rgba(255,255,255,.2);
+  height: 240px;
+  color: #ffffff;
+}
+.caption h5{
+  border: 1px solid #ffffff;
+  max-width: 100%;
+  text-align: center;
+  width: 100px;
+  margin-bottom: 5px;
+}
+.caption h2{
+  font-size: 24px;
+  font-weight: 400;
+}
+.caption p{
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.caption a {
+  font-size: 12px;
+  padding: 2px 3px;
+  display: block;
+  background: #ffffff;
+  color: #93C01F;
+  width: 75px;
+  text-align: center;
+  float: right;
+  text-decoration: none;
+}
+.caption a:hover{
+  background: #93C01F;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.slider-nav {
+  line-height: 30px;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+
+  width: 30%;
+  max-width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  /*background: #323232;*/
+  /*opacity: .9;*/
+
+  filter: alpha(opacity=90); /* ie8 */
+}
+.slider-nav a {
+  display: inline-block;
+
+  width: 12px;
+  height: 12px;
+  margin: 0 3px;
+
+  -webkit-transition: background .5s ease;
+     -moz-transition: background .5s ease;
+       -o-transition: background .5s ease;
+          transition: background .5s ease;
+
+  border: 2px solid #93C01F;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.slider-nav .active {
+  width: 12px;
+  height: 12px;
+  background: #93C01F;
+}

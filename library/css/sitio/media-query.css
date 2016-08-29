@@ -2,15 +2,51 @@
     $MEDIA-QUERIES
 \*------------------------------------*/
 
-	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {
-		.ads__header_phone{
-			display: none
+
+	@media only screen and (max-width: 1200px) {
+		.show{
+	        display: none;
+	    }
+	    .menuRes {
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        right: 40%;
+        top: 26px;
+        cursor: pointer;
+       
+	    }  
+	    .menu ul {
+	        position: absolute;
+	        right: 24%;
+	        top: 72px;
+	        
+	        background-color: #0B90D0;
+	        padding: 0px 20px;
+	    }
+	    .menu > ul > li{
+	    	display: block;
+	    	text-align: left;
+	    }
+	    .menu>ul>li>a.sel, .menu>ul >li>a:hover {
+	    	border: none;
+	    	text-decoration: underline;
+	    }
+	    .buscar__header input[type="text"]{
+	    	margin-top: 0px;
+	    }
+	    .line__header{
+			display: none;
+		}
+		 .copyright{
+			text-align: center;
 		}
 	}
+	
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
 	    .header .logo{
 			margin-top: 10px;
 		}
@@ -58,13 +94,13 @@
         right: 40%;
         top: 26px;
         cursor: pointer;
-        z-index: 99999;
+        
 	    }  
 	    .menu ul {
 	        position: absolute;
-	        right: 16%;
+	        right: 21%;
 	        top: 38px;
-	        z-index: 99999;
+	        
 	        background-color: #0B90D0;
 	        padding: 0px 20px;
 	    }
@@ -76,11 +112,33 @@
 	    	border: none;
 	    	text-decoration: underline;
 	    }
+		.de__actualidad h3{
+			max-width: 30%;
+		}
+		.de__actualidad h3{
+			max-width: 36%;
+		}
+	    .seven.columns.de__actualidad, .five.columns.lo__destacado, .four.columns.sidebar__2.center, .eight.columns.nuestros__portales{
+	    	width: 100%;
+	    }
+	    .para_el_paciente h3, .lo__destacado h3{
+	    	max-width: 100%;
+	    }
+	    .editor__jefe h3{
+	    	max-width: 70%;
+	    }
+	    .para__el__paciente__cajas__texto{
+	    	margin-top: 70px;
+	    }
+	    .copyright{
+			text-align: center;
+		}
+		.footer__logos h3{
+	    	margin-bottom: 20px;
+	    }
 
 	}
 	
-	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -113,7 +171,10 @@
 			text-align: center;
 		}
 		.de__actualidad h3{
-			max-width: 70%;
+			max-width: 56%;
+		}
+		.centros__profesionales h3{
+			max-width: 64% !important;
 		}
 		.lo__destacado h3{
 			max-width: 40%;
@@ -133,13 +194,13 @@
         right: 50%;
         top: 9px;
         cursor: pointer;
-        z-index: 99999;
+        
 	    }  
 	    .menu ul {
 	        position: absolute;
 	        right: 24%;
 	        top: 38px;
-	        z-index: 99999;
+	        
 	        background-color: #0B90D0;
 	        padding: 0px 20px;
 	    }
@@ -150,6 +211,37 @@
 	    .menu>ul>li>a.sel, .menu>ul >li>a:hover {
 	    	border: none;
 	    	text-decoration: underline;
+	    }
+	    .seven.columns.de__actualidad, .five.columns.lo__destacado, .four.columns.sidebar__2.center, .eight.columns.nuestros__portales{
+	    	width: 100%;
+	    }
+	    .para_el_paciente h3, .lo__destacado h3{
+	    	max-width: 100%;
+	    }
+	    .editor__jefe h3{
+	    	max-width: 70%;
+	    }
+	    .footer__logos h3{
+	    	margin-bottom: 20px;
+	    }
+	    .copyright__contact li{
+	    	margin-right: 0px;
+	    	margin: 0px 10px;
+	    }
+	    .footer__logos ul li img{
+			margin-bottom: 20px;
+		}
+		.copyright{
+			text-align: center;
+		}
+		.menu__top__header li:last-child:after{
+	    	content: none;
+	    }
+	    .spacing__centros{
+			margin-bottom: 26px;
+	    }
+	    .nuestros__portales__cajas h4{
+	    	width: 100%;
 	    }
 	}
 
@@ -207,27 +299,25 @@
 			margin-top: -66px;
 		}
 		.buscar__header input[type="text"]{
-			width: 70%;
+			width: 50%;
 			float: right;
-			margin-top: -25px;
+			margin-top: -20px;
 			background: url("../../images/header/icon_lupa.png") no-repeat scroll 0 0 #ffffff;
-			background-position: 130px 3px;
+			background-position: 85px 5px;
 		}
 
 		.menuRes {
         display: block;
         font-size: 30px;
         position: absolute;
-        right: 50%;
+        right: 45%;
         top: 9px;
         cursor: pointer;
-        z-index: 99999;
 	    }  
 	    .menu ul {
 	        position: absolute;
 	        right: 16%;
 	        top: 38px;
-	        z-index: 99999;
 	        background-color: #0B90D0;
 	        padding: 0px 20px;
 	    }
@@ -255,10 +345,10 @@
 	    	margin-bottom: 10px;
 	    }
 	    .centros__profesionales h3{
-	    	max-width: 81% !important;
+	    	max-width: 100% !important;
 	    }
 	    .de__actualidad h3{
-	    	max-width: 70%;
+	    	max-width: 60%;
 	    }
 	    .el__abc__de h2{
 	    	margin-top: 10px;
@@ -290,4 +380,20 @@
 	    	margin-right: 0px;
 	    	margin: 0px 10px;
 	    }
+	    .spacing__centros{
+			margin-bottom: 26px;
+	    }
+	    .menu__top__header li:last-child:after{
+	    	content: none;
+	    }
+	    .footer__logos h3{
+	    	margin-bottom: 20px;
+	    }
+	    .de__actualidad{
+	    	margin-top: 70px;
+	    }
+	    .slider-container{
+	    	top: 90px;
+	    }
+
 	}
